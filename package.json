@@ -4,6 +4,7 @@
   "private": true,
   "description": "newsite",
   "author": "Chiba",
+  "homepage": "https://github.com/chibachann/newsite_ver1",
   "keywords": [
     "gatsby"
   ],
@@ -12,7 +13,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^5.13.3",
@@ -22,5 +24,8 @@
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
