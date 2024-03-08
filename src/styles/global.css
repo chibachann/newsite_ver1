@@ -1,0 +1,29 @@
+/* ./global.css */
+
+:root {
+    --main: #e18346;
+    --grad: linear-gradient(5deg, #e95404, #e95404, #ffba00) no-repeat right top / 200% 100%;
+    --grad-w: linear-gradient(to right, #e95404, #e95404, #ffba00) no-repeat right top / 200% 100%;
+    --font-maru: 'Kosugi Maru', sans-serif;
+  }
+  
+  html {
+    box-sizing: border-box;
+    line-height: 1;
+    font-size: 62.5%;
+    background: #fff;
+  }
+  
+  body {
+    font-family: Lato, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #191919;
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  *, :after, :before {
+    box-sizing: inherit;
+  }
